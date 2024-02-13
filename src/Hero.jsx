@@ -2,8 +2,8 @@ import { MdCheck } from 'react-icons/md';
 
 export default function Hero() {
   return (
-    <main>
-      <section className="max-container flex p-8 items-center justify-around gap-20">
+    <main className='w-screen'>
+      <section className="max-container w-screen flex p-8 items-center justify-around gap-20">
         <div>
           <h1 className="text-white text-6xl font-semibold mb-8 w-[680px]">
             Turn your <span className="text-third"> tests</span>

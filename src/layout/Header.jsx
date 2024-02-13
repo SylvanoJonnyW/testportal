@@ -26,8 +26,8 @@ const NAV_PAGE = [
 export default function Header() {
   return (
     <>
-      <header>
-        <div className="max-container flex p-8 items-center justify-between">
+      <header className="w-screen">
+        <div className="max-container w-screen flex p-8 items-center justify-between">
           <div className="flex items-center gap-12">
             <a href="/" className="mr-12">
               <img
@@ -53,12 +53,12 @@ export default function Header() {
           </div>
           <div className="flex gap-6 ml-8">
             <a href="/login">
-              <Button className="px-5 py-2 rounded-lg border-3 hover:bg-secondary hover:text-primary hover:font-semibold hover:border-transparent text-white font-medium border-black border-opacity-20">
+              <Button href={'login'} className="px-5 py-2 rounded-lg border-3 hover:bg-secondary hover:text-primary hover:font-semibold hover:border-transparent text-white font-medium border-black border-opacity-20">
                 Login
               </Button>
             </a>
             <a href="/signup">
-              <Button className="px-5 py-2 rounded-lg  border-3 hover:bg-secondary-2 hover:border-transparent hover:text-primary text-primary font-semibold border-secondary bg-secondary">
+              <Button href={'sign-up'} className="px-5 py-2 rounded-lg  border-3 hover:bg-secondary-2 hover:border-transparent hover:text-primary text-primary font-semibold border-secondary bg-secondary">
                 Sign up
               </Button>
             </a>

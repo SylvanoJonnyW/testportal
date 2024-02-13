@@ -3,7 +3,7 @@ import Button from './Button';
 export default function Collaboration() {
   return (
     <>
-      <section className="bg-secondary">
+      <section className="bg-secondary w-screen">
         <div className="second-container py-36">
           <div className="flex gap-28 justify-between">
             <div className="flex flex-col gap-8 justify-center pl-28">
@@ -42,7 +42,7 @@ export default function Collaboration() {
           </div>
         </div>
       </section>
-      <section className="bg-[#E5EBF2]">
+      <section className="bg-[#E5EBF2] w-screen">
         <div className="second-container py-36">
           <div className="flex gap-28 justify-between">
             <div>

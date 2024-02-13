@@ -19,7 +19,7 @@ export default function Input() {
               className="p-3 rounded-lg text-input font-semibold w-[520px]"
               placeholder="Enter the access code"
             />
-            <Button className="bg-primary py-2 rounded-lg text-white font-semibold border-transparent hover:bg-primary-2">
+            <Button href={'start-the-test'} className="bg-primary py-2 rounded-lg text-white font-semibold border-transparent hover:bg-primary-2">
               Start your test
             </Button>
           </form>

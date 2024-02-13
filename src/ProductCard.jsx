@@ -1,7 +1,7 @@
 export default function ProductCard() {
   return (
     <>
-      <section className="bg-white pb-36">
+      <section className="bg-white w-screen pb-36 ">
         <div className="max-container bg-primary rounded-xl pt-4">
           <div className="flex">
             <div className="bg-white rounded-bl-none py-6 rounded-xl w-[1280px] rounded-tl-none rounded-tr-xl rounded-br-none ">

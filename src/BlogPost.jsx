@@ -1,15 +1,19 @@
 import { blogpost, anotherBlogPost } from './blog-post';
 import { GoArrowRight } from 'react-icons/go';
+import Button from './Button';
 
 export default function BlogPost() {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white w-screen">
         <div className="max-container">
           <h3 className="text-primary text-3xl font-bold mb-12">Our blog</h3>
           <div className="flex gap-8 justify-between">
             {blogpost.map(post => (
-              <div key={post.title} className="flex flex-col gap-6 justify-evenly w-[560px]">
+              <div
+                key={post.title}
+                className="flex flex-col gap-6 justify-evenly w-[560px]"
+              >
                 <img
                   src={post.img}
                   alt={post.title}
@@ -101,10 +105,10 @@ export default function BlogPost() {
                 stories on our blog
               </h3>
             </div>
-            <div className=" px-4 py-2 rounded-lg border-3 border-fourth w-fit">
-              <button className="text-primary font-semibold">
+            <div>
+              <Button href={'more-articles'} className="text-primary font-semibold px-4 py-2 rounded-lg border-3 border-fourth w-fit">
                 See more articles
-              </button>
+              </Button>
             </div>
           </div>
         </div>

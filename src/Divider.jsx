@@ -1,7 +1,7 @@
 export default function Divider() {
   return (
     <>
-      <section className="bg-white pt-32">
+      <section className="bg-white pt-32 w-screen">
         <div className="flex flex-col gap-48 second-container">
           <div className="flex justify-between">
             <div className="flex flex-col gap-8 pl-28">
